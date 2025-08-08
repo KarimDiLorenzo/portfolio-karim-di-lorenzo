@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 
     <header class="bg-white shadow-md shadow-neutral-300/20 ">
         <div class="bg-white flex flex-wrap justify-between max-w-7xl mx-auto p-3 items-center">
-            <h1 class="text-2xl ">Karimdi</h1>
+            <h1 class="text-2xl">Karimdi</h1>
             <nav class="ml-20 flex content-bottom gap-5">
             <a href="" class="hover:text-emerald-400">Inicio</a>
             <a href="" class="hover:text-emerald-400">Info</a>
@@ -20,14 +20,14 @@
         </div>
     </header>
 
-    <main class="bg-neutral ">
+    <main class="bg-neutral shadow-md shadow-neutral-300/20 ">
        <section class="flex flex-wrap justify-between mx-auto max-w-7xl mt-10"> 
-            <div class="flex flex-col">
+            <div class="flex flex-col ">
                 <h1 class="text-5xl pl-10  max-w-md max-h-60 justify-start mt-10">Futuro
                     <span class="text-emerald-300 font-semibold">Ing. en Sistemas</span> y <span class="text-emerald-300 font-semibold">Dev web junior</span>
                 </h1> 
                
-                <p class="content-end justify-start p-5 text-md max-w-lg ml-5"> Hola soy <b>Karim Di Lorenzo</b> estudiante de la UTN-FRM, iniciando el camino del mundo tech y el desarrollo web </p>
+                <p class="content-end justify-start p-5 text-md max-w-lg ml-5"> Hola soy <b>Karim Di Lorenzo</b> estudiante de la UTN-FRM, iniciando el camino del mundo tech y el desarrollo web 💻 </p>
                     <button class="
                     bg-emerald-200 
                     p-2 
@@ -48,10 +48,9 @@
             </div>
         </section>
        
-        <section class="flex flex-col mt-30 py-15">
-                <div class="flex flex-wrap justify-between max-w-7xl p-3 mt-10 bg-green-200">
-                    <h1 class="text-emerald-300 font-semibold text-5xl justify-start py-10">Proyectos</h1>
-                    <h2 class="text-5xl content-center">pepe</h2>
+        <section class="flex flex-col mt-30 py-15 max-w-7xl mx-auto">
+                <div class="p-3 mt-10">
+                    <h1 class="text-emerald-300 font-semibold text-5xl justify-start py-10 ">Proyectos</h1>
                 </div>
            
             <!-- Slideshow container -->
@@ -91,17 +90,34 @@
                onclick="plusSlides(1)">&#10095;</a>
             </div>
         </section>
-      
-       <section>
-        <h1>experiencia</h1>
+        
+        <section class=" py-10 max-w-7xl mx-auto">
+            <h1 class="text-emerald-300 font-semibold text-5xl justify-start py-10">Experiencia</h1>
+            <div class=" marker:text-emerald-300 text-2xl leading-20 px-10">
+              <ul class="list-disc">
+                <li>2016-2020 ECMZ-Bachiller en Informática </li> 
+                <li>2022- Presente UTN-FRM Ing. en Sist de Información</li>
+                <li>2023- Voluntariado área IT Mundial FIFA U-22</li>   
+              </ul>  
+            </div>
        </section>
      
-       <section>
-        <h1>habilidades</h1>
+       <section class=" py-10 max-w-7xl mx-auto">
+            <h1 class="text-emerald-300 font-semibold text-5xl justify-start py-10">Habilidades</h1>
+            <div class="text-7xl flex justify-around py-10">
+                <i class="fa-brands fa-js text-yellow-400"></i>
+                <i class="fa-brands fa-html5 text-orange-400"></i>
+                <i class="fa-brands fa-css3-alt text-sky-400"></i>
+                <i class="fa-brands fa-square-git text-red-500"></i>
+                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-node-js text-green-800"></i>
+                <i class="fa-brands fa-react text-cyan-400"></i>
+                <img src="./img/logo-tailwind.svg" class="max-h-12 mt-3">
+            </div>
        </section>
       
-       <section>
-        <h1>contacto</h1>
+       <section class=" py-10 max-w-7xl mx-auto">
+            <h1 class="text-emerald-300 font-semibold text-5xl justify-start py-10">Contacto</h1>
        </section>
 
     </main>
@@ -111,5 +127,6 @@
     </footer>
 
     <script src="/js/app.js"> </script>
+    <script src="https://kit.fontawesome.com/d8a6d2dd05.js" crossorigin="anonymous"></script>
 </body>
 </html>
