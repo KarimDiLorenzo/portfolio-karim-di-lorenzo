@@ -9,9 +9,9 @@
 </head>
 <body class="font-serif">
 
-    <header class="bg-white shadow-md shadow-neutral-300/20 ">
+    <header class="bg-white shadow-md shadow-neutral-300/20">
         <div class="bg-white flex flex-wrap justify-between max-w-7xl mx-auto p-3 items-center">
-            <div class="p-3 mt-10 flex content-start max-w-xs bg-emerald-200 p-3 -skew-4 rounded-md">
+            <div class="p-3 flex content-start max-w-xs bg-emerald-200 p-3 -skew-4 rounded-md">
                 <h1 class="text-2xl skew-4">Karimdi</h1>
             </div>
             <nav class="ml-20 flex content-bottom gap-5">
@@ -22,31 +22,33 @@
         </div>
     </header>
 
-    <main class="bg-neutral shadow-md shadow-neutral-300/20 ">
-       <section class="flex flex-wrap justify-between mx-auto max-w-7xl mt-10"> 
-            <div class="flex flex-col ">
-                <h1 class="text-5xl pl-10  max-w-md max-h-60 justify-start mt-10">Futuro
-                    <span class="text-emerald-300 font-semibold">Ing. en Sistemas</span> y <span class="text-emerald-300 font-semibold">Dev web junior</span>
-                </h1> 
+    <main class="shadow-md shadow-neutral-300/20">
+       <section class=""> 
+           <div class="flex flex-wrap justify-between mx-auto max-w-7xl mt-10">
+                <div class="flex flex-col ">
+                    <h1 class="text-5xl pl-10  max-w-md max-h-60 justify-start mt-10">Futuro
+                     <span class="text-emerald-300 font-semibold">Ing. en Sistemas</span> y <span class="text-emerald-300 font-semibold">Dev web junior</span>
+                     </h1> 
                
-                <p class="content-end justify-start p-5 text-md max-w-lg ml-5"> Hola soy <b>Karim Di Lorenzo</b> estudiante de la UTN-FRM, iniciando el camino del mundo tech y el desarrollo web 💻 </p>
-                    <button class="
-                    bg-emerald-200 
-                    p-2 
-                    max-w-25
-                    rounded-md         
-                    max-h-13 
-                    ml-10
-                    flex justify-items-center
-                    hover:bg-emerald-300 
-                    cursor-pointer
-                    transition delay-150 duration-300 ease-in-out 
-                    hover:-translate-y-1 hover:scale-110">
-                    <a href="https://wa.me/5492615528285/?text=Hola!%20me%20gustaría%20saber%20más%20sobre%20tus%20servicios" target="_blank">Hablemos!</a></button> 
-            </div>
+                    <p class="content-end justify-start p-5 text-md max-w-lg ml-5"> Hola soy <b>Karim Di Lorenzo</b> estudiante de la UTN-FRM, iniciando el camino del mundo tech y el desarrollo web 💻 </p>
+                        <button class="
+                        bg-emerald-200 
+                        p-2 
+                        max-w-25
+                        rounded-md         
+                        max-h-13 
+                        ml-10
+                        flex justify-items-center
+                        hover:bg-emerald-300 
+                        cursor-pointer
+                        transition delay-150 duration-300 ease-in-out 
+                        hover:-translate-y-1 hover:scale-110">
+                        <a href="https://wa.me/5492615528285/?text=Hola!%20me%20gustaría%20saber%20más%20sobre%20tus%20servicios" target="_blank">Hablemos!</a></button> 
+                </div>
 
-            <div>
-                <img src="./img/foto-cv.jpg" class="max-w-lg max-h-70 pl-50 rounded-full  flex mt-5 mr-15">
+                <div>
+                    <img src="./img/foto-cv.jpg" class="max-w-lg max-h-70 pl-50 rounded-full  flex mt-5 mr-15">
+                </div>
             </div>
         </section>
        
@@ -56,7 +58,7 @@
                 </div>
            
             <!-- Slideshow container -->
-            <div class="max-w-4xl relative mx-auto">
+            <div class="max-w-4xl relative mx-auto mt-20">
                 <!-- Full-width images with caption text -->
                 <div id="slide1" class="mySlides hidden fade-animation">
                    <a href="https://karimdilorenzo.github.io/tp3-flexbox-clon/" target="_blank"><img src="./img/foto-1°proyecto.jpg" class="w-full h-96 rounded-md object-cover cursor-pointer"></a>
@@ -94,22 +96,52 @@
         </section>
         
         <section class=" py-10 max-w-7xl mx-auto">
-            <div class="p-3 mt-10  max-w-xs bg-emerald-200 -skew-4 rounded-md">
+            <div class="p-3 mt-10  max-w-xs bg-emerald-200 -skew-4 rounded-md mb-10">
                 <h1 class="text-neutral-50 font-semibold text-5xl justify-start py-10 skew-4">Experiencia</h1>
             </div>
-            <div class=" marker:text-emerald-300 text-2xl leading-20 px-10">
-              <ul class="list-disc">
-                <li>2016 - 2020  ECMZ-Bachiller en Informática </li> 
-                <li>2022 - Presente UTN-FRM Ing. en Sist de Información</li>
-                <li>2023 - Mayo a Junio Voluntariado área IT Mundial FIFA U-22</li>   
-                <li>2025 - Junio a Septiembre Curso Full-Stack UTN</li>
+            <div class="px-5">
+              <ul>
+                <li class="relative flex gap-6 pb-5 items-baseline ml-5">
+                    <div class="before:absolute before:left-[6px] before:top-10 before:h-full before:w-[3px] before:bg-emerald-200 ">
+                        <i class="fa-solid fa-circle text-emerald-200"></i>
+                    </div>
+                    <div class="text-2xl mt-5">
+                        <p> 2016 - 2020</p>
+                        <p> Bachiller en Informática - ECMZ</p>
+                    </div>
+                </li>
+                <li class="relative flex gap-6 pb-5 items-baseline ml-5">
+                    <div class="before:absolute before:left-[6px] before:top-10 before:h-full before:w-[3px] before:bg-emerald-200 ">
+                        <i class="fa-solid fa-circle text-emerald-200"></i>
+                    </div>
+                    <div class="text-2xl mt-5">
+                        <p> 2022 - Presente</p>
+                        <p> Ingeniería en Sistemas de Información - UTN FRM</p>
+                    </div>
+                </li><li class="relative flex gap-6 pb-5 items-baseline ml-5">
+                    <div class="before:absolute before:left-[6px] before:top-10 before:h-full before:w-[3px] before:bg-emerald-200 ">
+                        <i class="fa-solid fa-circle text-emerald-200"></i>
+                    </div>
+                    <div class="text-2xl mt-5">
+                        <p> Mayo 2023 - Junio 2023</p>
+                        <p> Voluntariado área IT Mundial FIFA U-22 Mendoza</p>
+                    </div>
+                </li><li class="relative flex gap-6 pb-5 items-baseline ml-5">
+                    <div class="">
+                        <i class="fa-solid fa-circle text-emerald-200"></i>
+                    </div>
+                    <div class="text-2xl mt-5">
+                        <p> Junio 2025 - Septiembre 2025</p>
+                        <p> Curso FullStack Web - UTN FRBA</p>
+                    </div>
+                </li>
               </ul>  
             </div>
        </section>
      
        <section class=" py-10 max-w-7xl mx-auto">
             <div class="p-3 mt-10  max-w-xs bg-emerald-200 -skew-4 rounded-md">
-                <h1 class="text-neutral-50 font-semibold text-5xl justify-start py-10 skew-4">Habilidades</h1>
+                <h1 class="text-neutral-50 font-semibold text-5xl justify-start py-10 skew-4">Tecnologías</h1>
             </div>
             <div class="text-7xl flex justify-around py-10">
                 <i class="fa-brands fa-js text-yellow-400"></i>
@@ -131,8 +163,14 @@
 
     </main>
 
-    <footer>
-
+    <footer class="py-3 text-md">
+        <div class="mx-auto max-w-7xl flex justify-between text-lg">
+            <h2>® Todos los derechos reservados 2025. Creado por Karim Di Lorenzo</h2> 
+        <div class="text-2xl">
+            <a href="https://www.linkedin.com/in/karim-di-lorenzo-351b65232/" target="_blank"><i class="fa-brands fa-linkedin hover:text-emerald-200 duration-200 ease-in-out"></i></a>
+            <a href="https://github.com/KarimDiLorenzo" target="_blank"><i class="fa-brands fa-github hover:text-emerald-200 duration-200 ease-in-out"></i></a>
+        </div>
+        </div>
     </footer>
 
     <script src="/js/app.js"> </script>
