@@ -18,4 +18,4 @@ Se trata de una página al estilo **portfolio** donde hay una galería deslizabl
 ## Futuras implementaciones
 - [ ] Aplicar un diseño **responsive** a la página  
 - [ ] Realizar la **validación del formulario** mediante JS  
-- [ ] Transformar el portfolio usando **React+**  
+- [ ] Transformar el portfolio usando **React+Vite**  
